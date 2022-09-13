@@ -1,3 +1,5 @@
 /.idea
 /.gitattributes
 /pom.xml
+/out
+/Animal.iml

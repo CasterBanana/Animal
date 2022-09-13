@@ -26,13 +26,13 @@ public class Applications {
                         fillAnimal(sc, cat);
                         cat.say();
                         animals.add(cat);
-                    } else if (animalType.equals("dog")) {
+                    } else if (animales.equals("dog")) {
                         Dog dog = new Dog();// присвоили имя, возраст, вес и цвет от данных выше
                         fillAnimal(sc, dog);
                         // добавить в список animals собаку
                         dog.say();
                         animals.add(dog);
-                    } else if (animalType.equals("duck")) {
+                    } else if (animales.equals("duck")) {
                         Duck duck = new Duck();// присвоили имя, возраст, вес и цвет от данных выше
                         fillAnimal(sc, duck);
                         // добавить в список animals утку
@@ -97,7 +97,6 @@ public class Applications {
         List<String> animal = new ArrayList();
         for (TypeAnimal env : TypeAnimal.values()) {
             animal.add(env.name());
-            System.out.println(animal);
         }
         while (!animal.contains(typeAnimal)) {
             System.out.println("Такого животного нет. Какое животное вы хотите добавить? cat/dog/duck");
