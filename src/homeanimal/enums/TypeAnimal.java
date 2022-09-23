@@ -1,4 +1,4 @@
-package homeanimal;
+package homeanimal.enums;
 
 public enum TypeAnimal {
     CAT,

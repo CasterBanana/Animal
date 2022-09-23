@@ -1,4 +1,4 @@
-package homeanimal;
+package homeanimal.intrfc;
 
 public interface Flying {
     void fly();

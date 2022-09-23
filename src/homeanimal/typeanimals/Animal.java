@@ -1,4 +1,4 @@
-package homeanimal;
+package homeanimal.typeanimals;
 
 import java.util.Scanner;
 
@@ -33,9 +33,9 @@ public abstract class Animal {
         this.weight = weight;
         this.color = color;
     }
-    public Animal(){
-
-    }
+//    public Animal(){
+//
+//    }
 
 
     //метод по выводу год года лет
